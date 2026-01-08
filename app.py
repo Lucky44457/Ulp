@@ -9,9 +9,10 @@ app = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    workers=50,
+    workers=1000,
     plugins=dict(root="plugins")  
 )
 
 
 LOGGER.info("Bot Client Created Successfully!")
+
